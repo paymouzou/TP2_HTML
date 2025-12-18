@@ -1,11 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BestFood - Accueil</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>🍔 BestFood</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item active">
+                    <a href="Index.html" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="burgers.html" class="nav-link">Burgers</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pizzas.html" class="nav-link">Pizzas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="boissons.html" class="nav-link">Boissons</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Choisissez votre menu</h1>
+            <p class="hero-subtitle">Découvrez nos délicieuses spécialités</p>
+        </div>
+    </section>
+
+    <!-- Menu Cards -->
+    <main class="menu-section">
+        <div class="menu-grid">
+            <div class="menu-card">
+                <div class="card-icon">🍔</div>
+                <h3 class="card-title">Burgers</h3>
+                <p class="card-description">Des burgers savoureux préparés avec des ingrédients frais</p>
+                <a href="burgers.html" class="card-button">Voir les burgers</a>
+            </div>
+            
+            <div class="menu-card">
+                <div class="card-icon">🍕</div>
+                <h3 class="card-title">Pizzas</h3>
+                <p class="card-description">Pizzas artisanales cuites au feu de bois</p>
+                <a href="pizzas.html" class="card-button">Voir les pizzas</a>
+            </div>
+            
+            <div class="menu-card">
+                <div class="card-icon">🥤</div>
+                <h3 class="card-title">Boissons</h3>
+                <p class="card-description">Rafraîchissez-vous avec nos boissons fraîches</p>
+                <a href="boissons.html" class="card-button">Voir les boissons</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <p class="slogan">BestFood, votre satisfaction avant tous.</p>
+    </footer>
 </body>
 </html>
